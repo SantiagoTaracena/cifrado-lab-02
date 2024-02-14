@@ -21,7 +21,7 @@ def binary_to_number(binary: list[str]) -> list[int]:
         for index, char in enumerate(binary_number):
 
             # Conversión multiplicando por 2 a la potencia del índice.
-            int_char = int(char) * 2 ** (len(binary_number) - (index + 1))
+            int_char = int(char) * (2 ** (len(binary_number) - (index + 1)))
             number_result += int_char
 
         # Agregación del número obtenido.
