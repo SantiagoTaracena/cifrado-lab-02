@@ -9,3 +9,11 @@ Para poder observar los resultados de la Parte A, ejecutar el siguiente comando:
 ```sh
 python part_a_main.py
 ```
+
+## Parte B
+
+El primer inciso de la parte B consistió en desarrollar una función que haga el XOR, bit a bit, con dos cadenas de texto. Esta función se encuentra en `./src/utils/xor_cipher.py`. Posteriormente fue necesario descifrar una imagen dada con este método y con Base64. Para correr el programa que realiza este descifrado es necesario correr el siguiente comando:
+
+```sh
+python part_b_main.py "./data/image.png" "cifrados"
+```
