@@ -17,3 +17,9 @@ El primer inciso de la parte B consistió en desarrollar una función que haga e
 ```sh
 python part_b_main.py "./data/image.png" "cifrados"
 ```
+
+El inciso 7 del laboratorio tiene como enunciado "Investigar por qué al aplicar XOR con una llave de texto la imagen se corrompe". La respuesta es que la corrupción de la imagen al aplicar XOR con una llave de texto ocurre debido a discrepancias en la longitud de la llave y la imagen, así como a la presencia de caracteres incompatibles en la llave. Es esencial que la llave tenga la misma longitud y formato adecuado para evitar esta corrupción.
+
+El inciso 8 del laboratorio indica que se debe investigar cómo obtener el XOR de dos imágenes. La respuesta es que para aplicar XOR a dos imágenes, primero se deben representar las imágenes en forma de matrices de píxeles binarios y luego realizar la operación XOR elemento por elemento entre las matrices. Los principales inconvenientes que pueden surgir incluyen asegurarse de que las imágenes tengan la misma resolución y profundidad de bits, así como el manejo de diferentes formatos de color. Además, es esencial considerar la interpretación correcta de los resultados, ya que la operación XOR combina los bits en cada píxel, devolviendo 1 si los bits son diferentes y 0 si son iguales, lo que puede afectar la apariencia visual de la imagen resultante.
+
+Finalmente, el contenido del inciso 9 se encuentra en el archivo `./src/main.ipynb`.

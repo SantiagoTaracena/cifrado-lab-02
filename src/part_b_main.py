@@ -9,6 +9,7 @@ Santiago Taracena Puga (20017)
 import sys
 import base64
 
+# Módulos necesarios para la parte 2 del laboratorio.
 from utils.string_to_binary import string_to_binary
 from utils.xor_cipher import xor_cipher
 from utils.binary_to_string import binary_to_number
