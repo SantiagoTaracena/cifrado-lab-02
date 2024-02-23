@@ -2,7 +2,10 @@
 Universidad del Valle de Guatemala
 (CC3078) Cifrado de Información
 Laboratorio 2 - Base64
-Santiago Taracena Puga (20017)
+
+Miembros del equipo de trabajo:
+- Gabriel Alejandro Vicente Lorenzo (20498)
+- Santiago Taracena Puga (20017)
 """
 
 # Función number_to_string que convierte un listado de números a un string.
